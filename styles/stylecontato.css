@@ -1,0 +1,36 @@
+:root{ --cor--primaria:white;
+    --cor-secundaria:black;}
+    
+*{  margin:0;
+    padding:0;}
+
+.cabecalho{ padding: 2% 0% 0% 15%; 
+    background-color:black ;
+    padding:18px;}
+
+.cabecalho__menu{ display:flex;
+    gap: 10%;}
+
+.cabecalho__paginas{ font-size: 22px;
+    color: white;
+    text-decoration: none;
+    text-align: center;}
+
+h1{text-align: center;
+    font-size: 28;
+    font-family:'Times New Roman';}
+
+.contatos{font-size: 25px;
+    color:black;
+    text-align: center;
+    padding:80px;}
+
+.rodape{ color:white;
+    font-size: 18px;
+    background-color: black;
+    padding:15px;
+    text-align: center;}
+
+body{background-color: white;
+width: 100%;
+}
